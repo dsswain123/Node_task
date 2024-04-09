@@ -14,7 +14,6 @@ exports.addBulkQuestions = async (filePath) => {
     fs.createReadStream(filePath)
       .pipe(csv())
       .on('data', (row) => {
-        // Assuming CSV format: title,content,category1,category2,...
         const categories = row.categories.split(',');
         const newQuestion = {
           title: row.title,
