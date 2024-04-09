@@ -5,10 +5,10 @@ This project is a Node.js-based RESTful API for managing users, categories, and 
 
 # Installation
  # Clone the repository:
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/dsswain123/Node_task.git
 # Navigate to the project directory:
 
-cd your-repository
+cd Node_task
 # Install dependencies:
 npm install
 # Set up environment variables:
